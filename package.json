@@ -4,6 +4,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "clean": "node cleanup.js"
+    "clean": "node cleanup.js",
+    "kill": "taskkill /F /IM chrome.exe"
   }
 }
