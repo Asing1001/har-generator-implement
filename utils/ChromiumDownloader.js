@@ -27,7 +27,7 @@ const ProxyAgent = require('https-proxy-agent');
 // @ts-ignore
 const getProxyForUrl = require('proxy-from-env').getProxyForUrl;
 
-const DOWNLOADS_FOLDER = path.join(__dirname, '..', '.local-chromium');
+const DOWNLOADS_FOLDER = path.join(__dirname, '..', 'local-chromium');
 const DEFAULT_DOWNLOAD_HOST = 'https://storage.googleapis.com';
 
 const downloadURLs = {

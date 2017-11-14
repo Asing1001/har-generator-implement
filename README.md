@@ -7,8 +7,12 @@
 
 ```bash
 git clone https://github.com/Asing1001/har-generator-implement.git
+
 cd har-generator-implement
+
 npm install
-.local-chromium/win64-515411/chrome-win32/chrome.exe --remote-debugging-port=9222 --disable-gpu --headless
+
+local-chromium\win64-515411\chrome-win32\chrome.exe --remote-debugging-port=9222 --disable-gpu --headless
+
 npm start
 ```
