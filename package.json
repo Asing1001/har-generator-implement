@@ -10,8 +10,9 @@
   "scripts": {
     "install": "node install.js",
     "start": "node index.js",
-    "clean": "node cleanup.js",
-    "kill": "taskkill /F /IM chrome.exe"
+    "headless": "local-chromium\\win64-515411\\chrome-win32\\chrome.exe --remote-debugging-port=9222 --disable-gpu --headless",
+    "kill": "taskkill /F /IM chrome.exe",
+    "clean": "npm run kill && npm run headless"
   },
   "puppeteer": {
     "chromium_revision": "515411"

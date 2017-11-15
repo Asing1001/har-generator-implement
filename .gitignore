@@ -1,5 +1,5 @@
 dist
-.local-chromium
+local-chromium
 # Logs
 logs
 *.log
