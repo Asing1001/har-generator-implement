@@ -13,7 +13,8 @@
     "headless": "local-chromium\\win64-515411\\chrome-win32\\chrome.exe --remote-debugging-port=9222 --disable-gpu --headless",
     "kill": "taskkill /F /IM chrome.exe",
     "clean": "node clean.js",
-    "service": "node service.js"
+    "service": "node service.js && nssm start \"agilehar\"",
+    "remove": "npm run kill && nssm stop \"agilehar\" && nssm remove \"agilehar\" confirm"
   },
   "puppeteer": {
     "chromium_revision": "515411"
