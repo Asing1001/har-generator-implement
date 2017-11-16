@@ -9,7 +9,7 @@
   },
   "scripts": {
     "install": "node install.js",
-    "start": "node index.js",
+    "start": "npm run clean && node index.js",
     "headless": "local-chromium\\win64-515411\\chrome-win32\\chrome.exe --remote-debugging-port=9222 --disable-gpu --headless",
     "kill": "taskkill /F /IM chrome.exe",
     "clean": "node clean.js"

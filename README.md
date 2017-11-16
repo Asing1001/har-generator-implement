@@ -12,9 +12,5 @@ cd har-generator-implement
 
 npm install
 
-npm run clean
-
-local-chromium\win64-515411\chrome-win32\chrome.exe --remote-debugging-port=9222 --disable-gpu --headless
-
 npm start
 ```
