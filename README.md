@@ -15,3 +15,8 @@ npm install
 
 npm start
 ```
+
+## Use
+
+Modify [config.js](./config.js), add as many url as you want to gathering har files.
+
